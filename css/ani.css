@@ -1,0 +1,25 @@
+#visual .visual-txt h2,
+#visual .visual-txt p {
+    display: none;
+}
+
+#visual .visual-txt.on h2,
+#visual .visual-txt.on p {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+#visual .visual-txt.on h2 span,
+#visual .visual-txt.on p span {
+    display: inline-block;
+    animation: txt-up 1.4s;
+}
+
+@keyframes txt-up {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
