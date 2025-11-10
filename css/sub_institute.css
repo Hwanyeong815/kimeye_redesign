@@ -47,6 +47,7 @@
     line-height: 70px;
     width: 100%;
     text-align: center;
+    cursor: pointer;
 }
 .ins-tab-area .tablist .tab-box.on,
 .ins-tab-area .tablist .tab-box:hover {
@@ -306,6 +307,13 @@
     -webkit-line-clamp: 4;
     overflow: hidden;
     text-overflow: ellipsis;
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+    opacity: 1;
+}
+.con4 .equip .equip-box-all .equip-box .txt-line.expanded p {
+    -webkit-line-clamp: unset;
+    max-height: none;
+    opacity: 1;
 }
 .con4 .equip .equip-box-all .equip-box .txt-line button {
     width: 35px;
@@ -314,9 +322,13 @@
     margin-top: 20px;
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 .con4 .equip .equip-box-all .equip-box .txt-line button img {
-    width: 100%;
+    transition: 0.3s ease;
+}
+.con4 .equip .equip-box-all .equip-box .txt-line button.expanded img {
+    transform: rotate(180deg);
 }
 .con4 .equip .equip-box-all .equip-box .img-line {
     width: 45%;
