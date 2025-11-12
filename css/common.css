@@ -211,3 +211,29 @@
     justify-content: flex-end;
     margin-bottom: 20px;
 }
+
+.step-for-page {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.step-for-page .btn {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+}
+.step-for-page .btn.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+.step-for-page .btn a {
+    width: 100%;
+    height: 100%;
+}
+.step-for-page .btn a img {
+    width: 100%;
+}
