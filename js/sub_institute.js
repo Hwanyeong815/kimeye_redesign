@@ -35,7 +35,7 @@ const doctorsTable = () => {
         ['월', '화', '수', '목', '금']
             .map((day) =>
                 schedule[day]
-                    ? `<td><img src="/images/icon/check.png" alt="진료일자" /></td>`
+                    ? `<td><img src="./images/icon/check.png" alt="진료일자" /></td>`
                     : `<td></td>`
             )
             .join('');
@@ -73,7 +73,7 @@ const sickContent = () => {
         const icon = head ? head.querySelector('img') : null;
 
         display.classList.remove('on');
-        icon.setAttribute('src', '/images/sub1_institute/toggle-plus-btn.png');
+        icon.setAttribute('src', './images/sub1_institute/toggle-plus-btn.png');
 
         head.addEventListener('click', () => {
             boxes.forEach((otherBox) => {
@@ -82,7 +82,10 @@ const sickContent = () => {
                     const otherIcon = otherBox.querySelector('.head img');
                     if (otherDisplay) otherDisplay.classList.remove('on');
                     if (otherIcon)
-                        otherIcon.setAttribute('src', '/images/sub1_institute/toggle-plus-btn.png');
+                        otherIcon.setAttribute(
+                            'src',
+                            './images/sub1_institute/toggle-plus-btn.png'
+                        );
                 }
             });
             // 클릭된 박스 토글
@@ -91,8 +94,8 @@ const sickContent = () => {
             icon.setAttribute(
                 'src',
                 isOpen
-                    ? '/images/sub1_institute/toggle-minus-btn.png'
-                    : '/images/sub1_institute/toggle-plus-btn.png'
+                    ? './images/sub1_institute/toggle-minus-btn.png'
+                    : './images/sub1_institute/toggle-plus-btn.png'
             );
         });
     });
