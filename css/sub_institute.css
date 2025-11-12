@@ -8,7 +8,7 @@
     position: relative;
 }
 .kimeye-breadcrumb-wrap .breadcrumb li::after {
-    content: url(/images/icon/arrow_right.svg);
+    content: url(../images/icon/arrow_right.svg);
     position: absolute;
     top: 10%;
 }
