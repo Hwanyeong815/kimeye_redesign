@@ -1,149 +1,139 @@
 .kimeye-breadcrumb-wrap .breadcrumb {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .kimeye-breadcrumb-wrap .breadcrumb li {
-    margin-right: 25px;
-    position: relative;
+  margin-right: 25px;
+  position: relative;
 }
 .kimeye-breadcrumb-wrap .breadcrumb li::after {
-    content: url(../images/icon/arrow_right.svg);
-    position: absolute;
-    top: 10%;
+  content: url(/images/icon/arrow_right.svg);
+  position: absolute;
+  top: 10%;
 }
 .kimeye-breadcrumb-wrap .breadcrumb li a {
-    font-size: 20px;
-    font-weight: 400;
-    color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
 }
 .kimeye-breadcrumb-wrap .breadcrumb li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .kimeye-breadcrumb-wrap .breadcrumb li img {
-    width: 20px;
+  width: 20px;
 }
 .kimeye-breadcrumb-wrap h2 {
-    font-size: 32px;
-    margin: 30px 0;
-    font-weight: 700;
+  font-size: 32px;
+  margin: 30px 0;
+  font-weight: 700;
 }
 
 .doc-tab-area {
-    width: 100%;
+  width: 100%;
 }
 .doc-tab-area .tablist {
-    margin: 60px auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    width: 1280px;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 1280px;
 }
 .doc-tab-area .tablist .tab-box {
-    border: 1px solid #bdbfc2;
-    border-radius: 5px;
-    height: 70px;
-    line-height: 70px;
-    width: 170px;
-    text-align: center;
+  border: 1px solid #bdbfc2;
+  border-radius: 5px;
+  height: 70px;
+  line-height: 70px;
+  width: 170px;
+  text-align: center;
 }
-.doc-tab-area .tablist .tab-box.on,
-.doc-tab-area .tablist .tab-box:hover {
-    cursor: pointer;
-    background-color: #07a1af;
-    border: 1px solid #07a1af;
-    color: #ffffff;
+.doc-tab-area .tablist .tab-box.on, .doc-tab-area .tablist .tab-box:hover {
+  cursor: pointer;
+  background-color: #07a1af;
+  border: 1px solid #07a1af;
+  color: #ffffff;
 }
 .doc-tab-area2 .tablist {
-    width: 340px;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
+  width: 340px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .con .doctor-list-wrap {
-    margin: auto;
-    width: 1230px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+  margin: auto;
+  width: 1230px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .con .doctor-list-wrap .doctor-item {
-    border-radius: 5px;
-    border: 2px solid #d4d5d8;
-    background: #ffffff;
-    padding: 30px;
-    box-sizing: border-box;
-    width: 600px;
-    height: 260px;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+  border-radius: 5px;
+  border: 2px solid #d4d5d8;
+  background: #ffffff;
+  padding: 30px;
+  box-sizing: border-box;
+  width: 600px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 .con .doctor-list-wrap .doctor-item .txt-line h3 {
-    font-size: 32px;
-    font-weight: 500;
-    margin-bottom: 50px;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 50px;
 }
 .con .doctor-list-wrap .doctor-item .txt-line h3 span {
-    font-size: 24px;
-    font-weight: 500;
-    color: #a0a2a5;
-    margin-left: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #a0a2a5;
+  margin-left: 10px;
 }
 .con .doctor-list-wrap .doctor-item .txt-line strong {
-    font-size: 24px;
-    font-weight: 500;
+  font-size: 24px;
+  font-weight: 500;
 }
 .con .doctor-list-wrap .doctor-item .txt-line strong span {
-    margin-left: 20px;
-    color: #a0a2a5;
-    position: relative;
+  margin-left: 20px;
+  color: #a0a2a5;
+  position: relative;
 }
 .con .doctor-list-wrap .doctor-item .txt-line strong span::after {
-    content: '';
-    position: absolute;
-    left: -10px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 2px;
-    height: 80%;
-    background: #f1f2f4;
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 80%;
+  background: #f1f2f4;
 }
 .con .doctor-list-wrap .doctor-item .txt-line .tap {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 .con .doctor-list-wrap .doctor-item .txt-line .tap button {
-    padding: 10px;
-    margin-right: 10px;
-    border-radius: 5px;
-    border: none;
-    font-size: 16px;
-    font-weight: 500;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
 }
 .con .doctor-list-wrap .doctor-item .txt-line .tap button:first-child {
-    background-color: #1c9da9;
-    color: #ffffff;
+  background-color: #1c9da9;
+  color: #ffffff;
 }
 .con .doctor-list-wrap .doctor-item .txt-line .tap button:last-child {
-    cursor: pointer;
-    background-color: #f9fafb;
+  cursor: pointer;
+  background-color: #f9fafb;
 }
 .con .doctor-list-wrap .doctor-item .txt-line .tap button:last-child:hover {
-    color: #ffffff;
-    background-color: #7c7e80;
+  color: #ffffff;
+  background-color: #7c7e80;
 }
 .con .doctor-list-wrap .doctor-item .txt-line .tap button:last-child:hover img {
-    filter: invert(100%);
+  filter: invert(100%);
 }
 .con .doctor-list-wrap .doctor-item .txt-line .tap button img {
-    vertical-align: middle;
-}
-.con .doctor-list-wrap .doctor-item .img-line {
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
-    overflow: hidden;
-}
-.con .doctor-list-wrap .doctor-item .img-line img {
-    width: 100%;
+  vertical-align: middle;
 }

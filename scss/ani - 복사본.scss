@@ -1,0 +1,22 @@
+#visual .visual-txt.on {
+    h2,
+    p {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        span {
+            display: inline-block;
+            // transform: translateY(100%);
+            animation: txt-up 1.4s;
+        }
+    }
+}
+
+@keyframes txt-up {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
